@@ -26,11 +26,11 @@ define-command -hidden powerline-theme-spacecamp %{ evaluate-commands %sh{
 	red1="rgb:FF0000"
     printf "%s\n" "
         declare-option -hidden str powerline_color00 ${black0}  # fg: bufname
-        declare-option -hidden str powerline_color01 ${blue0}   # bg: position
+        declare-option -hidden str powerline_color01 ${black1}  # bg: position
         declare-option -hidden str powerline_color02 ${black0}  # fg: git
         declare-option -hidden str powerline_color03 ${blue0}   # bg: bufname
         declare-option -hidden str powerline_color04 ${orange}  # bg: git
-        declare-option -hidden str powerline_color05 ${black0}  # fg: position
+        declare-option -hidden str powerline_color05 ${gray3}   # fg: position
         declare-option -hidden str powerline_color06 ${white}   # fg: line-column, lsp
         declare-option -hidden str powerline_color07 ${white}   # fg: mode-info
         declare-option -hidden str powerline_color08 ${black0}  # base background
